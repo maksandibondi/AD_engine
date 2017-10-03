@@ -1,0 +1,40 @@
+﻿  AD_Project.cpp
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(85): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(85): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(102): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(102): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(120): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(120): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(161): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(161): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(178): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(178): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(196): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(196): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(238): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(238): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(256): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(256): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(274): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(274): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(316): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(316): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(334): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(334): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(352): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(352): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(395): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(395): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(413): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(413): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(430): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(430): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(472): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(472): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(509): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(509): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(545): warning C4305: 'argument': truncation from 'int' to 'char'
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(545): warning C4309: 'argument': truncation of constant value
+c:\users\mbondare\downloads\fx adjoint\ad development\ad_project\ad_project\ad_project.cpp(745): warning C4715: 'ADUTILITIES::Normal_ElHadj': not all control paths return a value
+  AD_Project.vcxproj -> C:\Users\mbondare\Downloads\FX adjoint\AD development\AD_Project\Debug\AD_Project.dll
+  AD_Project.vcxproj -> C:\Users\mbondare\Downloads\FX adjoint\AD development\AD_Project\Debug\AD_Project.pdb (Partial PDB)

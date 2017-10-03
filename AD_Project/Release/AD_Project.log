@@ -1,0 +1,41 @@
+﻿  AD_Project.cpp
+AD_Project.cpp(85): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(85): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(102): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(102): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(120): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(120): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(161): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(161): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(178): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(178): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(196): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(196): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(238): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(238): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(256): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(256): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(274): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(274): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(316): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(316): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(334): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(334): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(352): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(352): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(395): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(395): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(413): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(413): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(430): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(430): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(472): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(472): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(509): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(509): warning C4309: 'argument': truncation of constant value
+AD_Project.cpp(545): warning C4305: 'argument': truncation from 'int' to 'char'
+AD_Project.cpp(545): warning C4309: 'argument': truncation of constant value
+  Generating code
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  AD_Project.vcxproj -> C:\Users\mbondare\Downloads\FX adjoint\AD development\AD_Project\Release\AD_Project.dll
