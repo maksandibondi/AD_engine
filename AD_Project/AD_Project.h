@@ -110,14 +110,23 @@ namespace ADUTILITIES {
 	double theta_FDM(const double S, const double sigma, const double r, const double K, const double T, const double t, const double delta_T);
 	double thetaa_FDM(const double S, const double sigma, const double r, const double K, const double T, const double t, const double delta_t);
 	double kaa_FDM(const double S, const double sigma, const double r, const double K, const double T, const double t, const double delta_k);
+	double test_complex_FDM(vector<double> vec, int der_position, double delta);
 	// Functions to derive
-
+	
 
 	double BS(double S, double sigma, double r, double K, double T, double t);
+
+	double test_complex(vector<double> vec);
+
+
 
 	Derivable test(vector<Derivable> vec, vector<double> flag);
 
 	Derivable test(vector<Derivable> vec);
+
+	Derivable test_complex(vector<Derivable> vec);
+
+	Derivable test_complex(vector<Derivable> vec, vector<double> flag);
 
 	Derivable BS(vector<Derivable> vec, vector<double> flag);
 

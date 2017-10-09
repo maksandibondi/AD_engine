@@ -1120,7 +1120,14 @@ namespace ADUTILITIES {
 	double kaa_FDM(const double S, const double sigma, const double r, const double K, const double T, const double t, const double delta_k) {
 		return -(BS(S, sigma, r, K+delta_k, T, t) - BS(S, sigma, r, K, T, t)) / delta_k;
 	}
+	
+	double test_complex_FDM(vector<double> vec, int der_position, double delta) {
+		//vector<double> vec1 = vec;
+		vec[der_position] = vec[der_position] + delta;
 
+		double ans = (test_complex(vec) - 1) / delta;
+		return ans;
+	}
 
 	double BS(double S, double sigma, double r, double K, double T, double t) {
 		double d1 = (1 / (sigma * pow(T - t,0.5)))*(log(S / K) + (r + sigma*sigma)*(T - t));
@@ -1134,7 +1141,17 @@ namespace ADUTILITIES {
 		return func;
 	}
 
+	double test_complex(vector<double> vec) {
+		int sz = vec.size();
+		double func = vec[0];
+		for (int i = 0; i < sz-1; i++) {
+			func = func * vec[i + 1];
+		}
+		//double func = exp(vec[1])*vec[0] + vec[2] * log(vec[3])*std::abs(vec[4])*vec[5] * (vec[6] * vec[6])*vec[7] / vec[8] + vec[8] * log(vec[6])*vec[9] * vec[10] / vec[7] + exp(vec[10])*vec[9] * vec[3] * vec[11] * vec[12] * vec[13] / vec[14] * vec[5] * exp(vec[11]) + vec[14];
+		return func;
+	}
 
+	
 
 
 	Derivable test(vector<Derivable> vec, vector<double> flag) {
@@ -1156,6 +1173,34 @@ namespace ADUTILITIES {
 
 		Derivable func = exponent(vec[1])*vec[0] + vec[1];
 
+		return func;
+	}
+
+	Derivable test_complex(vector<Derivable> vec, vector<double> flag) {
+		int sz = vec.size();
+		for (int i = 0; i < sz; i++) {
+			vec[i].flag = flag[i];
+			if (flag[i] == 1) {
+				vec[i].deriv = 1;
+			}
+		}
+
+		Derivable func = vec[0];
+		for (int i = 0; i < sz-1; i++) {
+			func = func * vec[i + 1];
+		}
+		//Derivable func = exponent(vec[1])*vec[0] + vec[2]*logarithm(vec[3])*abs(vec[4])*vec[5]*(vec[6]^2)*vec[7]/vec[8]+vec[8]*logarithm(vec[6])*vec[9]*vec[10]/vec[7]+exponent(vec[10])*vec[9]*vec[3]*vec[11]*vec[12]*vec[13]/vec[14]*vec[5]*exponent(vec[11])+vec[14];
+		return func;
+
+	}
+
+	Derivable test_complex(vector<Derivable> vec) {
+		int sz = vec.size();
+		Derivable func = vec[0];
+		for (int i = 0; i < sz-1; i++) {
+			func = func * vec[i + 1];
+			//Derivable func = exponent(vec[1])*vec[0] + vec[2] * logarithm(vec[3])*abs(vec[4])*vec[5] * (vec[6] ^ 2)*vec[7] / vec[8] + vec[8] * logarithm(vec[6])*vec[9] * vec[10] / vec[7] + exponent(vec[10])*vec[9] * vec[3] * vec[11] * vec[12] * vec[13] / vec[14] * vec[5] * exponent(vec[11]) + vec[14];
+		}
 		return func;
 	}
 

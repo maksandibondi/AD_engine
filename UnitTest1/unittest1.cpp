@@ -160,6 +160,46 @@ namespace UnitTest1
 			//system("pause");
 		}
 
+		// Testing complex function
+		TEST_METHOD(TestEvalComplex) {
+			vector<double> vec(10000, 1);
+			double res = test_complex(vec);
+		}
 
+		TEST_METHOD(TestFMADComplex)
+		{
+			// TODO: Your test code here
+			vector<Derivable> vec(10000, Derivable(1));
+
+			//vector<double> der(6, 0);
+
+			for (int i = 0; i < 10000; i++) {
+				vector<double> flag(10000, 0);
+				flag[i] = 1;
+
+				Derivable result = FMAD(test_complex, vec, flag);
+				//der[i] = result.deriv;
+			}
+
+			//system("pause");
+
+
+		}
+
+		TEST_METHOD(TestAADComplex) {
+			vector<Derivable> vec(10000, Derivable(1));
+			vector<double> der(10000, 0);
+			AAD(test_complex, vec);
+			for (int i = 0; i < 10000; i++) {
+				der[i] = vec[i].getAdjoint();
+			}
+		}
+
+		TEST_METHOD(TestFDMComplex) {
+			vector<double> vec(10000, 1);
+			for (int i = 0; i < 10000; i++) {
+				double ans = test_complex_FDM(vec, i, 0.1);
+			}
+		}
 	};
 }
